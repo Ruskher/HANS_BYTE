@@ -10,13 +10,13 @@ if (fs.existsSync("config.env")) {
 // Application Configuration Object
 module.exports = {
   // Session and Owner Information
-  SESSION_ID: process.env.SESSION_ID || "HANS-BYTE~9uNUQYRL#iTR9ayZtYxwUPiyyqDSeV9GcpwasFaN5Y63vlHaJymE", // Add your session ID here
-  SUDO: process.env.SUDO || "237696900612", // Add your admin/sudo number here
-  OWNER_NUM: process.env.OWNER_NUM || "237680260772", // Add the owner's number here
+  SESSION_ID: process.env.SESSION_ID || "HANS-BYTE~k3UDnJ4K#AEgMEi3h78l1N4ZoodIl2xAFKa9qMltEHzVWsaFTGU4", // Add your session ID here
+  SUDO: process.env.SUDO || "628389107168", // Add your admin/sudo number here
+  OWNER_NUM: process.env.OWNER_NUM || "6283890107168", // Add the owner's number here
   OWNER_NAME: process.env.OWNER_NAME || "HANS TECH", // Add the owner's name here
-  OWNER_EMAIL: process.env.OWNER_EMAIL || "your@email.com", // Add your email address here
+  OWNER_EMAIL: process.env.OWNER_EMAIL || "professor@email.com", // Add your email address here
   OWNER_LOCATION: process.env.OWNER_LOCATION || "Africa/Douala", // Add your location here
-  OWNER_GITHUB: process.env.OWNER_GITHUB || "https://github.com/HansTech1", // Add your GitHub profile URL here
+  OWNER_GITHUB: process.env.OWNER_GITHUB || "ngapain!", // Add your GitHub profile URL here
 
   // API Keys for third-party services
   OMDB_API_KEY: process.env.OMDB_API_KEY || "5e339fb7", // Add your OMDB API key here
@@ -63,6 +63,6 @@ module.exports = {
   USER_PP_SIZE: process.env.USER_PP_SIZE || 640, // Set the user profile picture size here
 
   // Miscellaneous
-  GITHUB: process.env.GITHUB || "HaroldMth", // Add your GitHub username here
+  GITHUB: process.env.GITHUB || "apa", // Add your GitHub username here
   TIMEZONE: process.env.TIMEZONE || "𝙒𝘼𝙏+1" // Set your timezone here (e.g., "WAT+1")
 };
